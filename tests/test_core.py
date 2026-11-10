@@ -1,6 +1,12 @@
 """Unit tests for Zoom-DL-MCP core logic."""
 
+import os
+import sys
 import unittest
+
+# Ensure src/ is on sys.path for direct test runs without editable install
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
+
 from zoom_dl_mcp.core import RecordingMetadata, ZoomRecordingClient, ZoomDownloadError
 
 
