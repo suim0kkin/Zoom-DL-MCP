@@ -51,7 +51,7 @@ sequenceDiagram
 
 ### 1. リポジトリのクローン
 ```bash
-git clone https://github.com/wataraiharuki/Zoom-DL-MCP.git
+git clone https://github.com/suim0kkin/Zoom-DL-MCP.git
 cd Zoom-DL-MCP
 ```
 

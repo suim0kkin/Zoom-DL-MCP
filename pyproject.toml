@@ -47,9 +47,9 @@ zoom-dl = "zoom_dl_mcp.cli:main"
 zoom-dl-mcp = "zoom_dl_mcp.server:run_server"
 
 [project.urls]
-Homepage = "https://github.com/wataraiharuki/Zoom-DL-MCP"
-Repository = "https://github.com/wataraiharuki/Zoom-DL-MCP.git"
-Issues = "https://github.com/wataraiharuki/Zoom-DL-MCP/issues"
+Homepage = "https://github.com/suim0kkin/Zoom-DL-MCP"
+Repository = "https://github.com/suim0kkin/Zoom-DL-MCP.git"
+Issues = "https://github.com/suim0kkin/Zoom-DL-MCP/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
